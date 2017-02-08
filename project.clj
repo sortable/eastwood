@@ -1,4 +1,4 @@
-(defproject jonase/eastwood "0.2.4-SNAPSHOT"
+(defproject jonase/eastwood-sortable "0.2.4-SNAPSHOT"
   :description "A Clojure lint tool"
   :url "https://github.com/jonase/eastwood"
   :license {:name "Eclipse Public License"
@@ -6,6 +6,7 @@
   :global-vars {*warn-on-reflection* true
                 ;;*unchecked-math* :warn-on-boxed
                }
+  :repositories [["snapshots" "file:///tmp/maven/snapshots"]]
   :dependencies [
                  [org.clojure/clojure "1.5.1"]
                  ;[org.clojure/clojure "1.6.0"]
